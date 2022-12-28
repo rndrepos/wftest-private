@@ -1,4 +1,4 @@
-name: Get Info
+name: Create Issue
 
 on:
   push:
