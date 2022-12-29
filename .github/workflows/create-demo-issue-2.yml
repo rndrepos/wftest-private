@@ -14,5 +14,5 @@ jobs:
     uses: rndrepos/common/.github/workflows/create-repo-issue.yml@main
     secrets: inherit
     with:
-      title: "Test issue"
-      body: "Test body"
+      title: "Test issue 2"
+      body: "Test body 2"
