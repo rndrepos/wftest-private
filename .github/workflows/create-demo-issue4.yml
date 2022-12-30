@@ -22,4 +22,4 @@ jobs:
             "body": "simple body"
             }' \
           --fail | jq '.number')
-          echo "response from curl=$response"
+          echo "response from curl=..$response.."
