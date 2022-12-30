@@ -4,11 +4,6 @@ on:
   push:
   
 jobs:
-
-  msg:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Simple demo for reusable workflow"
     
   create-new-issue:
     uses: rndrepos/common/.github/workflows/create-repo-issue3.yml@main
