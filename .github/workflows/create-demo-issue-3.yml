@@ -2,8 +2,7 @@ name: Create demo issue 3
 on:
   push:
   
-jobs:
-    
+jobs: 
   create-new-issue:
     uses: rndrepos/common/.github/workflows/create-repo-issue3.yml@main
     secrets: inherit
