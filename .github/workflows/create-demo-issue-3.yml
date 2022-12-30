@@ -1,7 +1,6 @@
 name: Create demo issue 3
 on:
   push:
-  
 jobs:
     
   create-new-issue:
