@@ -14,8 +14,8 @@ jobs:
     uses: rndrepos/common/.github/workflows/create-repo-issue3.yml@main
     secrets: inherit
     with:
-      title: "Test issue 3"
-      body: "Test body 3"
+      title: "Test issue"
+      body: "Test body"
 
   report-issue-number:
     runs-on: ubuntu-latest
