@@ -9,6 +9,7 @@ jobs:
       - uses: actions/checkout@v3
   create-new-issue:
     uses: rndrepos/common/.github/workflows/create-issue-via-gh.yml@main
+    needs: get-repo
     secrets: inherit
     with:
       title: "Test issue"
