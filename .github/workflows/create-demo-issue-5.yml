@@ -2,20 +2,14 @@ name: Create demo issue 5
 
 on:
   push:
-  
-permissions:
-  repository-projects: read
-  issues: write
-  contents: read
-  
-  
+    
 jobs: 
   create-new-issue:
     uses: rndrepos/common/.github/workflows/create-issue-via-gh.yml@main
     secrets: inherit
     with:
-      title: "Test issue"
-      body: "Test body"
+      title: "Test issue via CLI"
+      body: "Test body via CLI"
 
   report-issue-number:
     runs-on: ubuntu-latest
