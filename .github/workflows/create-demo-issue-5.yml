@@ -3,6 +3,9 @@ name: Create demo issue 5
 on:
   push:
   
+permissions:
+  repository-projects: read
+  
 jobs: 
   create-new-issue:
     uses: rndrepos/common/.github/workflows/create-issue-via-gh.yml@main
