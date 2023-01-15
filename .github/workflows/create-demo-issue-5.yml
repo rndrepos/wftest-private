@@ -5,6 +5,7 @@ on:
   
 permissions:
   repository-projects: read
+  issues: write
   
 jobs: 
   create-new-issue:
