@@ -8,6 +8,7 @@ permissions:
   issues: write
   contents: read
   
+  
 jobs: 
   create-new-issue:
     uses: rndrepos/common/.github/workflows/create-issue-via-gh.yml@main
